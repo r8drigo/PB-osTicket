@@ -1,0 +1,7 @@
+---
+# defaults file for roles/app-ec2
+image: "ami-08a206ff0b0c11969"
+instance_type: "t2.micro"
+count: "1"
+volume_size: "16"
+subnet: "{{ public_subnet_id }}"

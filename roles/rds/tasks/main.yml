@@ -1,0 +1,16 @@
+- name: osTicket provisioning RDS
+  community.aws.rds:
+    command: create
+    instance_name: osticketdb
+    db_engine: mariadb
+    size: '20'
+    instance_type: db.t2.micro
+    vpc_security_groups: sg-024ad6f794afda314
+    region: us-east-1
+    zone: us-east-1c
+    publicly_accessible: yes
+    username: admin
+    password: '12345678'
+    tags:
+      Environment: PROD
+      Application: osTicket
