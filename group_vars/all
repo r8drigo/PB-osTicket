@@ -1,6 +1,6 @@
 ---
-aws_access_key: "AKIAQB7KXHOHLGXCVTP6"
-aws_secret_key: "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"
+aws_access_key: "<KEY>"
+aws_secret_key: "<SECRET_KEY>"
 
 application: "osTicket"
 target_env: "prod"
@@ -14,4 +14,4 @@ public_subnet_2_cidr: "172.27.64.0/18"
 private_subnet_1_cidr: "172.27.128.0/18"
 private_subnet_2_cidr: "172.27.192.0/18"
 keypair_name: "osTicket-key"
-ssh_pubkey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHeZqshEgz3pJwFvBgH0emLvEA7UK1rr372a9JRuwPg2NyjQTK/Am8SpQinBolIrG3XQenWkNWFI5MdXO1YaSf9tIeDGt86UpjwxNiib+g+PCdlcqeQS+O8UcKRKOR/6RnrEXWZExEFUzLRYUxiCYOJPodnzg9l7X/q+NtyIj5ASMC3dvNFsTxs6xjAOSyrZ8O640zuFsMwRSx3VURMqTtmcCHYrSSDcKvrnOQb8EWrlfE+i5AntzBhb+I/+SQcgRRKiFm3Y2veDoGiRcmXgTtuhkFpJ8H+isd6zkjy+Otupa7iQyIjvLLC33lZ+Xs6fF5jlPPsUKxuYFsdyJZzZSZ rodrigo@ubuntu'
+ssh_pubkey: '<pubkey>'
